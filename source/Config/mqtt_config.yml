@@ -1,0 +1,5 @@
+brokerUrl: 'broker.emqx.io'
+port: 1883
+keepAlive: 600
+topic: "/python/cry"
+client_id: "python-mqtt-1"
