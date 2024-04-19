@@ -1,5 +1,7 @@
 brokerUrl: 'broker.emqx.io'
 port: 1883
 keepAlive: 600
-topic: "/python/cry"
+result_topic: "/python/cry/result"
+image_topic: "/python/cry/image"
+state_topic: "/python/cry/state"
 client_id: "python-mqtt-1"
